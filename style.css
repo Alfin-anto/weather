@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+ color: rgb(10, 10, 10);
+    overflow-x: hidden;
+    background-image: url(./image/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#fffbfb,#342d4b,#babeba,#3e3962);
+    color: #000000;
+ 
+
+    margin: 100px auto 0;
+    border-radius: 30px;
+    padding: 40px 35px;
+    text-align: center;
+   
+
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    border-radius: 30px;
+    height: 60px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+.search button{
+    border: 0;
+    outline: 0;
+    
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+.search image{
+    width: 10px;
+    
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+ font-size: 80px;
+ font-weight: 500;
+
+}
+.weather h2{
+    font-size: 80px;
+    font-weight: 500;
+   margin-top: -10px;
+   }
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}   
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity,.Wind{
+    font-size: 28px;
+    margin-top: -6px; 
+}
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+.weather-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+} */

@@ -1,0 +1,16 @@
+  // <h3>${data.name}, ${data.sys.country}</h3>
+            // <p>Temperature: ${data.main.temp}°C</p>
+            // <p>Description: ${data.weather[0].description}</p>
+            // <p>Humidity: ${data.main.humidity}%</p>
+                max-width: 470px;
+    /* background: linear-gradient(135deg,#97e1e2,#fbf8f8,#93514c,#d0881c); */
+        background: rgba(184, 179, 179, 0.25);
+    box-shadow: 
+               0, 8px , 32px,0.3
+                rgba(56, 53, 53, 0.3) ;
+     backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  border: 
+  1px solid
+  rgba(255, 255, 255, 0.18);
+  ${data.weather[0].description}%
